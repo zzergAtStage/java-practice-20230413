@@ -7,12 +7,12 @@ public class Library {
     public static void ShirkRow(){
         System.out.println("========================^^^^^^^^^^^^^^^===========================");
     }
-    public static int[] GenArray(int arrayLength, int arrayValue){
+    public static int[] GetArray(int arrayLength, int arrayValue){
         int[] array = new int[arrayLength];
         Arrays.fill(array,arrayValue);
         return array;
     }
-    public static int[] GenArray(int arrayLength, int leftRange, int rightRange){
+    public static int[] GetArray(int arrayLength, int leftRange, int rightRange){
         int[] array = new int[arrayLength];
         Random rnd = new Random();
         for (int i = 0; i < arrayLength; i++) {
@@ -22,7 +22,6 @@ public class Library {
     }
     public static int[][] GenSquareArray(int arrayLength,int arrayValue){
         int[][] array = new int[arrayLength][arrayLength];
-        Random rnd = new Random();
         for (int i = 0; i < arrayLength; i++) {
             for (int j = 0; j < arrayLength; j++) {
                 array[i][j] = arrayValue;

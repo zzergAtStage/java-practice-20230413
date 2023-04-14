@@ -1,7 +1,7 @@
 package com.gbjava.lesson01;
 
 import java.io.FileWriter;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 
@@ -16,7 +16,7 @@ public class Main {
 //        ex3();
 //        ex4();
 //        ex5(3, 0);
-        ex6("Kate\tSmith\t20\nPaul\tGreen\t25\nMike\tBlack\t23");
+        ex6();
     }
 
 
@@ -54,7 +54,7 @@ public class Main {
     private static void ex3() {
         int[] nums = new int[]{3, 2, 3, 2, 3}; // {
         int val = 3;
-        int temp = 0;
+        int temp;
 
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i; j < nums.length - 1; j++)
@@ -73,7 +73,7 @@ public class Main {
     private static void ex4() {
         String str = "Добро пожаловать на курс по Java";
         String[] words = str.split(" ");
-        String temp = "";
+        String temp;
         for (int i = 0; i < words.length / 2; i++) {
             temp = words[i];
             words[i] = words[words.length - i - 1];
@@ -99,10 +99,10 @@ public class Main {
 //    Paul Green 25
 //    Mike Black 23
 
-    private static void ex6(String str) {
-        try (FileWriter fw = new FileWriter("GB_java_s01.txt", Charset.forName("UTF-8"), false)) {
+    private static void ex6() {
+        try (FileWriter fw = new FileWriter("GB_java_s01.txt", StandardCharsets.UTF_8, false)) {
             fw.write("Name\tSurname\tAge\n");
-            fw.append(str);
+            fw.append("Kate\tSmith\t20\nPaul\tGreen\t25\nMike\tBlack\t23");
             fw.flush();
 
         } catch (Exception ex) {
