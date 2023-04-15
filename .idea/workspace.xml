@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="begin coding">
+    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="exercise04_4 with if statements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/lesson01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/lesson01/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" afterDir="false" />
     </list>
@@ -52,18 +51,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.HomeWorkS01">
     <configuration name="HomeWorkS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar01.HomeWorkS01" />
@@ -91,9 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Taks005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar01.Taks005" />
+      <module name="java-practice-20230413" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbjava.seminar01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HomeWorkS01" />
+        <item itemvalue="Application.Taks005" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -121,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681429937761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="exercise04_4 with if statements">
+      <created>1681468995548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681468995548</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin coding" />
+    <MESSAGE value="exercise04_4 with if statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise04_4 with if statements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -146,6 +167,11 @@
           <properties class="java.lang.ArrayStoreException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
