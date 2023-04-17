@@ -11,19 +11,12 @@ public class Task001 {
     */
 
 
-        Scanner cs = new Scanner(System.in);
-        System.out.print("Input amount of chars: ");
-        int amountOfChar = cs.nextInt();
 
-        String[] c= new String[] {"A","b"};
-
-        StringBuilder result = new StringBuilder();
-
-        for (int i = 0; i < amountOfChar; i++) {
-            result.append(c[i % 2]);
-        }
-        System.out.println(result);
-
-
+        char a = 'A';
+        char b = 'b';
+        int n = 5;
+        String str = "" + a + b;
+        str = str.repeat(n / 2) + ((n % 2 == 1) ? a : "");
+        System.out.println(str);
     }
 }
