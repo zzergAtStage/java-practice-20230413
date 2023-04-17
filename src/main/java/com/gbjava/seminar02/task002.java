@@ -9,23 +9,22 @@ public class task002 {
             Пример: вход aaaabbbcdd.
         * */
         String trash = "aaaabbbcddYYYYYoooooo00000";
-
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         int counter = 1;
 
         for (int i = 0; i < trash.length() - 1 ; i++) {
-            if (trash.charAt(i + 1) == trash.charAt(i)) {
-                counter++;
-            } else if ( trash.charAt(i + 1) != trash.charAt(i) && counter == 1){
-                result += trash.charAt(i);
-                counter = 1;
-            } else {
-                result += Character.toString(trash.charAt(i))+ counter;
-                counter = 1;
+           if ( trash.charAt(i + 1) != trash.charAt(i)) {
+               result.append(trash.charAt(i));
+               if (counter != 1) {
+                   result.append(counter);
+               }
+                counter = 0;
             }
+
+           counter++;
         }
-        result += Character.toString(trash.charAt(trash.length() -1))+ counter;
+        result.append((trash.charAt(trash.length() - 1))).append(counter);
         System.out.println(result);
 
     }
