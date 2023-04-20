@@ -7,14 +7,15 @@ public class Examples {
         int d = 2;
         System.out.println(GetClass(d));
         //collection
-        ArrayList<Integer> integerArrayList = new ArrayList<Integer>(10);
+        ArrayList<Integer> integerArrayList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            integerArrayList.set(i, i);
+            integerArrayList.add(i);
         }
         integerArrayList.add(12);
+        integerArrayList.set(9,11);
         for (var item :
                 integerArrayList) {
-            System.out.print(item);
+            System.out.print(item + " ");
         }
     }
 
