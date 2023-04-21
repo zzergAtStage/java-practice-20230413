@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="exercise04_4 with if statements">
+    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="seminar03 initial without HW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +26,22 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Seminar02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a33b473c-53cc-46d4-a4c1-308cb9b4b447" />
+        <option name="url" value="https://github.com/zzergAtStage/java-practice-20230413.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,14 +67,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Father/Documents/Education/GB/02_semestr/Java/java-practice-20230413&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeWorkS01">
+  <component name="RunManager" selected="Application.task2_2">
     <configuration name="HomeWorkS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar01.HomeWorkS01" />
       <module name="java-practice-20230413" />
@@ -103,11 +115,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.gbjava.seminar03.Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar03.Examples" />
+      <module name="java-practice-20230413" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbjava.seminar03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar03.task2_2" />
+      <module name="java-practice-20230413" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbjava.seminar03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWorkS01" />
+        <item itemvalue="Application.task2_2" />
+        <item itemvalue="Application.com.gbjava.seminar03.Examples" />
         <item itemvalue="Application.Taks005" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HomeWorkS01" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +181,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681468995548</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial for 2nd seminar homework">
+      <created>1681944774249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681944774249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task001 with sql">
+      <created>1681951111262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681951111262</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task002 with .gitignore processing">
+      <created>1681977226449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681977226449</updated>
+    </task>
+    <task id="LOCAL-00007" summary="seminar03 initial without HW">
+      <created>1682011882601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011882601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +217,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,7 +238,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin coding" />
     <MESSAGE value="exercise04_4 with if statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise04_4 with if statements" />
+    <MESSAGE value="thirds lesson" />
+    <MESSAGE value="initial for 2nd seminar homework" />
+    <MESSAGE value="task001 with sql" />
+    <MESSAGE value="task002 with .gitignore processing" />
+    <MESSAGE value="seminar03 initial without HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar03 initial without HW" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,10 +252,19 @@
           <properties class="java.lang.ArrayStoreException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java</url>
           <line>133</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar03/Examples.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
