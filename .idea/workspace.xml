@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="seminar03 initial without HW">
+    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="seminar03 added 2_2+readme">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar03/HomeWork03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Seminar02" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,13 +76,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.task2_2">
-    <configuration name="HomeWorkS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar01.HomeWorkS01" />
+  <component name="RunManager" selected="Application.HomeWork03">
+    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar03.HomeWork03" />
       <module name="java-practice-20230413" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbjava.seminar01.*" />
+          <option name="PATTERN" value="com.gbjava.seminar03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork03" />
         <item itemvalue="Application.task2_2" />
         <item itemvalue="Application.com.gbjava.seminar03.Examples" />
         <item itemvalue="Application.Taks005" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HomeWorkS01" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +210,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682011882601</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="seminar03 initial without HW">
+      <created>1682078054658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682078054658</updated>
+    </task>
+    <task id="LOCAL-00009" summary="seminar03 added 2_2">
+      <created>1682078257776</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682078257776</updated>
+    </task>
+    <task id="LOCAL-00010" summary="seminar03 added 2_2+readme">
+      <created>1682177370162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682177370162</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +245,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="Seminar03" />
                       </list>
                     </value>
                   </entry>
@@ -243,7 +265,9 @@
     <MESSAGE value="task001 with sql" />
     <MESSAGE value="task002 with .gitignore processing" />
     <MESSAGE value="seminar03 initial without HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar03 initial without HW" />
+    <MESSAGE value="seminar03 added 2_2" />
+    <MESSAGE value="seminar03 added 2_2+readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar03 added 2_2+readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,11 +280,6 @@
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="9" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java</url>
-          <line>133</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar03/Examples.java</url>
           <line>33</line>
