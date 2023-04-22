@@ -21,8 +21,8 @@ Just homework...
 <details>
 <summary> Решения к семинару 03
 </summary>
-<p> <a href="seminar03/task2_2.java" title="From seminar 2_2"> ClassWork_2_2</a> - финальное решение для задачи с планетами </p>
+<p> <a href="https://github.com/zzergAtStage/java-practice-20230413/tree/Seminar03/src/main/java/com/gbjava/seminar03/task2_2.java" title="From seminar 2_2"> ClassWork_2_2</a> - финальное решение для задачи с планетами </p>
 
-<p> <a href="seminar03/HomeWork03.java" title="HWs03"> HomeWorkS03</a> - Домашнее задание 1 и 2 </p>
+<p> <a href="https://github.com/zzergAtStage/java-practice-20230413/tree/Seminar03/src/main/java/com/gbjava/seminar03/HomeWork03.java" title="HWs03"> HomeWorkS03</a> - Домашнее задание 1 и 2 </p>
 
 </details>
