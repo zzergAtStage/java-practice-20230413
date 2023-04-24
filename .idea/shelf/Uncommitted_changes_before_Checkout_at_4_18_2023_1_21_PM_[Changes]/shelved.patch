@@ -1,0 +1,179 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AnalysisUIOptions\">\r\n    <option name=\"ANALYZE_INJECTED_CODE\" value=\"false\" />\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"634d2bc5-bdec-4102-8363-3c05a6769556\" name=\"Changes\" comment=\"exercise04_4 with if statements\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2ONhEHdHZNO46vmgnMX1rZSRIya\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.HomeWorkS01\">\r\n    <configuration name=\"HomeWorkS01\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gbjava.seminar01.HomeWorkS01\" />\r\n      <module name=\"java-practice-20230413\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gbjava.seminar01.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gbjava.lesson01.Main\" />\r\n      <module name=\"java-practice-20230413\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gbjava.lesson01.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Taks005\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.gbjava.seminar01.Taks005\" />\r\n      <module name=\"java-practice-20230413\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.gbjava.seminar01.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.HomeWorkS01\" />\r\n        <item itemvalue=\"Application.Taks005\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"634d2bc5-bdec-4102-8363-3c05a6769556\" name=\"Changes\" comment=\"\" />\r\n      <created>1681406837347</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1681406837347</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"begin coding\">\r\n      <created>1681408274723</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681408274723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"begin coding\">\r\n      <created>1681429937761</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681429937761</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"exercise04_4 with if statements\">\r\n      <created>1681468995548</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681468995548</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"begin coding\" />\r\n    <MESSAGE value=\"exercise04_4 with if statements\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"exercise04_4 with if statements\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.ArrayStoreException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"4\" />\r\n        </breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java</url>\r\n          <line>133</line>\r\n          <option name=\"timeStamp\" value=\"8\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 902b9035edb3c28209fd2198a0f9aba9e839f08d)
++++ b/.idea/workspace.xml	(date 1681814919681)
+@@ -7,10 +7,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="exercise04_4 with if statements">
++    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="3nd issue">
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -63,7 +62,25 @@
+     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.HomeWorkS01">
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\Father\Documents\Education\GB\02_semestr\Java\java-practice-20230413\src\main\resources" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Application.Examles">
++    <configuration name="Examles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.gbjava.lesson03.Examles" />
++      <module name="java-practice-20230413" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.gbjava.lesson03.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="HomeWorkS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar01.HomeWorkS01" />
+       <module name="java-practice-20230413" />
+@@ -77,12 +94,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.gbjava.lesson01.Main" />
++    <configuration name="Task001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar02.Task001" />
+       <module name="java-practice-20230413" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.gbjava.lesson01.*" />
++          <option name="PATTERN" value="com.gbjava.seminar02.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -90,12 +107,25 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Taks005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar01.Taks005" />
++    <configuration name="task002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar02.task002" />
+       <module name="java-practice-20230413" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.gbjava.seminar01.*" />
++          <option name="PATTERN" value="com.gbjava.seminar02.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="task005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar02.task005" />
++      <module name="java-practice-20230413" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.gbjava.seminar02.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -105,9 +135,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Examles" />
++        <item itemvalue="Application.task005" />
++        <item itemvalue="Application.Task001" />
++        <item itemvalue="Application.task002" />
+         <item itemvalue="Application.HomeWorkS01" />
+-        <item itemvalue="Application.Taks005" />
+-        <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -141,7 +173,42 @@
+       <option name="project" value="LOCAL" />
+       <updated>1681468995548</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="exercise05 with if statements and reversal movement">
++      <created>1681598152991</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1681598152991</updated>
++    </task>
++    <task id="LOCAL-00005" summary="some README changes">
++      <created>1681598524154</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1681598524155</updated>
++    </task>
++    <task id="LOCAL-00006" summary="tmp with strings">
++      <created>1681755857106</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1681755857106</updated>
++    </task>
++    <task id="LOCAL-00007" summary="2nd issue">
++      <created>1681756740852</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1681756740852</updated>
++    </task>
++    <task id="LOCAL-00008" summary="3nd issue">
++      <created>1681757278760</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1681757278760</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -158,7 +225,12 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="begin coding" />
+     <MESSAGE value="exercise04_4 with if statements" />
+-    <option name="LAST_COMMIT_MESSAGE" value="exercise04_4 with if statements" />
++    <MESSAGE value="exercise05 with if statements and reversal movement" />
++    <MESSAGE value="some README changes" />
++    <MESSAGE value="tmp with strings" />
++    <MESSAGE value="2nd issue" />
++    <MESSAGE value="3nd issue" />
++    <option name="LAST_COMMIT_MESSAGE" value="3nd issue" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -167,11 +239,6 @@
+           <properties class="java.lang.ArrayStoreException" package="java.lang" />
+           <option name="timeStamp" value="4" />
+         </breakpoint>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java</url>
+-          <line>133</line>
+-          <option name="timeStamp" value="8" />
+-        </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+   </component>
