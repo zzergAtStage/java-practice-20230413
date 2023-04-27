@@ -30,8 +30,6 @@ public class Examples {
                 break;
             }
             tildaPosition = tmpValue.indexOf('~');
-            //System.out.println(tildaPosition);
-
             //check input
             try {
                 index = Integer.parseInt(tmpValue.substring(tildaPosition + 1));

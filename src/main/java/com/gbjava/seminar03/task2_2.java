@@ -5,12 +5,6 @@ import java.util.List;
 import java.util.Random;
 
 public class task2_2 {
-    public static void main(String[] args) {
-        ex2_2();
-        //аполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
-        //Пройти по списку из предыдущего задания и удалить повторяющиеся элементы.
-    }
-
     private static void ex2_2() {
         String[] planetsNamesStringArray = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Neptune", "Uranus", "Pluto"};
 
@@ -35,5 +29,11 @@ public class task2_2 {
             System.out.println(randomSolarSystem);
         }
         System.out.println(randomSolarSystem);
+    }
+
+    public static void main(String[] args) {
+        ex2_2();
+        //аполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
+        //Пройти по списку из предыдущего задания и удалить повторяющиеся элементы.
     }
 }
