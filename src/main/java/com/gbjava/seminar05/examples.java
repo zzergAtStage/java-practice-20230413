@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class examples {
     public static void main(String[] args) {
         qz();
+        int arabicNumber = 40;
+        String romanNumber = convertToRoman(arabicNumber);
+        System.out.println("Roman numeral for " + arabicNumber + " is: " + romanNumber);
     }
 
     private static void qz() {
@@ -15,8 +18,8 @@ public class examples {
 //                  I < V = 4     I < X = 9
 //>>
 //              ^
-        HashMap<Character,Integer> mapChars = new HashMap<>(7);
-        mapChars.put('I',1);
+        HashMap<Character, Integer> mapChars = new HashMap<>(7);
+        mapChars.put('I', 1);
         mapChars.put('V', 5);
         mapChars.put('X', 10);
         mapChars.put('L', 50);
@@ -29,9 +32,9 @@ public class examples {
         int result = 0;
         for (int i = 0; i < romanNumber.length(); i++) {
             int currentRoman = mapChars.get(romanNumber.charAt(i));
-            int prevRoman = i == 0  ? 0 : mapChars.get(romanNumber.charAt(i - 1));
+            int prevRoman = i == 0 ? 0 : mapChars.get(romanNumber.charAt(i - 1));
 
-            if ( i > 0 && currentRoman > prevRoman) {
+            if (i > 0 && currentRoman > prevRoman) {
                 result -= prevRoman;
                 result += currentRoman - prevRoman;
             } else {
@@ -39,8 +42,22 @@ public class examples {
             }
         }
 
-        System.out.printf("Arabic : %n from Roman: %s",result,romanNumber);
+        System.out.printf("Arabic : %n from Roman: %s", result, romanNumber);
+    }
 
+    public static String convertToRoman(int number) {
+        int[] arabicValues = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        String[] romanSymbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
+        StringBuilder romanNumber = new StringBuilder();
+
+        for (int i = 0; i < arabicValues.length; i++) {
+            while (number >= arabicValues[i]) {
+                romanNumber.append(romanSymbols[i]);
+                number -= arabicValues[i];
+            }
+        }
+
+        return romanNumber.toString();
     }
 }
