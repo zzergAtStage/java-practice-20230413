@@ -10,40 +10,41 @@ public class Shop {
         laptopShopStore.put(1, new Laptop(8, 512, 1001, 999.99, "null"));
         laptopShopStore.put(2, new Laptop(16, 1024, 1002, 1499.99, "WIN 11"));
         laptopShopStore.put(3, new Laptop(8, 128, 1003, 799.99, "MS-DOS"));
-        String userPrompt;
-        String desiredParam;
-        int searchParameterNumber;
-        String continueChoice = "Y";
+
+
+
+
         Map<Integer, String> userChoice = new HashMap<>();
+        Scanner scanner = new Scanner(System.in);
         do {
             System.out.println(DEFAULTPROMPT);
-            Scanner scanner = new Scanner(System.in);
+            int searchParameterNumber;
             while (true) {
                 searchParameterNumber = scanner.nextInt();
                 if (ShopSearchEngine.searchParameter.containsKey(searchParameterNumber)) {
-                    userPrompt = ShopSearchEngine.SearchPrompt(searchParameterNumber);
                     break;
                 }
                 System.out.println("Enter valid search parameter (between 1 and 4)!");
             }
-            System.out.print(userPrompt);
+            System.out.print(ShopSearchEngine.SearchPrompt(searchParameterNumber));
             scanner.nextLine();
-            desiredParam = scanner.nextLine();
+            String desiredParam = scanner.nextLine();
             userChoice.put(searchParameterNumber, desiredParam);
+
             System.out.println("Would you like to add another search parameter => Y/N");
-            continueChoice = scanner.nextLine();
-        } while (continueChoice.equalsIgnoreCase("y"));
+        } while (!scanner.nextLine().equalsIgnoreCase("N"));
 
         System.out.println("Your choice:");
         System.out.println(userChoice);
 
-        try {
-            Set<Laptop> matchingLaptops = ShopSearchEngine.searchLaptops(laptopShopStore,userChoice );
+
+        Set<Laptop> matchingLaptops = ShopSearchEngine.searchLaptops(laptopShopStore,userChoice );
+        if (matchingLaptops.isEmpty()) {
+            System.out.println("There are no laptops that match your parameters...");
+        } else {
             for (Laptop laptop : matchingLaptops) {
                 System.out.println(laptop);
             }
-        } catch (NullPointerException ex) {
-            System.out.println("There is not any laptop for your parameters...");
         }
 
     }
