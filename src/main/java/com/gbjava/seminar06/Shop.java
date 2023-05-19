@@ -28,7 +28,7 @@ public class Shop {
             System.out.println("Enter valid search parameter (between 1 and 4)!");
         }
         System.out.print(userPrompt);
-
+        scanner.nextLine();
         desiredParam = scanner.nextLine(); //TODO check this parameter
 
         // Perform the search and print the matching laptops
