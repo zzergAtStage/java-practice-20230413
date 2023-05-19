@@ -25,17 +25,28 @@ public class ShopSearchEngine {
     private static boolean isNumeric(String str){
         return str != null && str.matches("[0-9.]+");
     }
-    public static Set<Laptop> searchLaptops(Map<Integer, Laptop> laptopsMap, String desiredParameter, int typeOfSearch) throws NullPointerException{
+    public static Set<Laptop> searchLaptops(Map<Integer, Laptop> laptopsMap, Map<Integer, String> userChoice) throws NullPointerException{
         int intParam = 0;
         Set<Laptop> matchingLaptops = new HashSet<>();
-        try { if (isNumeric(desiredParameter)) {
-                intParam = Integer.parseInt(desiredParameter); //RAMsize, SSD size, price (cast)
+        for (var entry: userChoice.entrySet()
+             ) {
+            String desiredParameter = entry.getValue();
+            int typeOfSearch = entry.getKey();
+            try { if (isNumeric(desiredParameter)) {
+                    intParam = Integer.parseInt(desiredParameter); //RAMsize, SSD size, price (cast)
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("error when parsed integer value: " + typeOfSearch);
+                return null;
             }
-        } catch (NumberFormatException e) {
-            System.out.println("error when parsed integer value: " + typeOfSearch);
-            return null;
+
+            getLaptopByOneParameter(laptopsMap, intParam, matchingLaptops, desiredParameter, typeOfSearch);
         }
 
+        return matchingLaptops;
+    }
+
+    private static void getLaptopByOneParameter(Map<Integer, Laptop> laptopsMap, int intParam, Set<Laptop> matchingLaptops, String desiredParameter, int typeOfSearch) {
         for (Laptop laptop : laptopsMap.values()) {
             switch (typeOfSearch) {
                 case 1 -> {
@@ -54,9 +65,8 @@ public class ShopSearchEngine {
                 }
             }
         }
-
-        return matchingLaptops;
     }
+
     public static String SearchPrompt(int parameter ) {
         return "Enter a value of " + searchParameter.get(parameter) + ":";
     }

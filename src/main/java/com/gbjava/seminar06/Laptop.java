@@ -1,8 +1,8 @@
 package com.gbjava.seminar06;
 
 public class Laptop {
-    private int ramSize;
-    private double ssdSize;
+    private final int ramSize;
+    private final double ssdSize;
     private final int id;
 
     Laptop(int ramSize, double ssdSize, int id, double price, String os) {
@@ -17,29 +17,17 @@ public class Laptop {
         return os;
     }
 
-    public void setOs(String os) {
-        this.os = os;
-    }
-
     private final double price;
 
-    private String os;
+    private final String os;
 
 
     public int getRamSize() {
         return ramSize;
     }
 
-    public void setRamSize(int ramSize) {
-        this.ramSize = ramSize;
-    }
-
     public double getSsdSize() {
         return ssdSize;
-    }
-
-    public void setSsdSize(double ssdSize) {
-        this.ssdSize = ssdSize;
     }
 
     public double getPrice() {
