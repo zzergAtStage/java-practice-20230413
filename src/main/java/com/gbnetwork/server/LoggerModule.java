@@ -1,2 +1,4 @@
-package com.gbnetwork.server;public class LoggerModule {
+package com.gbnetwork.server;
+
+public class LoggerModule {
 }

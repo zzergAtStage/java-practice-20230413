@@ -7,10 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="seminar03 added 2_2+readme">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar03/HomeWork03.java" afterDir="false" />
+    <list default="true" id="634d2bc5-bdec-4102-8363-3c05a6769556" name="Changes" comment="Seminar 06. some optimize code">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_18_2023_1_21_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Father/Documents/Education/GB/02_semestr/Java/java-practice-20230413&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Father/Documents/Education/ЕШКО-Немецкий для среднего уровня/MixBledModePlate&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -76,13 +77,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeWork03">
-    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar03.HomeWork03" />
+  <component name="RunManager" selected="Application.Shop">
+    <configuration name="ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar06.ClassWork" />
       <module name="java-practice-20230413" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbjava.seminar03.*" />
+          <option name="PATTERN" value="com.gbjava.seminar06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbjava.lesson01.Main" />
+    <configuration name="Example003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.lesson06.Example003" />
       <module name="java-practice-20230413" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbjava.lesson01.*" />
+          <option name="PATTERN" value="com.gbjava.lesson06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Taks005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar01.Taks005" />
+    <configuration name="HomeWork05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar05.HomeWork05" />
       <module name="java-practice-20230413" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbjava.seminar01.*" />
+          <option name="PATTERN" value="com.gbjava.seminar05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.gbjava.seminar03.Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar03.Examples" />
+    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbjava.seminar06.Shop" />
       <module name="java-practice-20230413" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbjava.seminar03.*" />
+          <option name="PATTERN" value="com.gbjava.seminar06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWork03" />
+        <item itemvalue="Application.Shop" />
+        <item itemvalue="Application.ClassWork" />
+        <item itemvalue="Application.Example003" />
         <item itemvalue="Application.task2_2" />
-        <item itemvalue="Application.com.gbjava.seminar03.Examples" />
-        <item itemvalue="Application.Taks005" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HomeWork05" />
       </list>
     </recent_temporary>
   </component>
@@ -210,28 +211,98 @@
       <option name="project" value="LOCAL" />
       <updated>1682011882601</updated>
     </task>
-    <task id="LOCAL-00008" summary="seminar03 initial without HW">
-      <created>1682078054658</created>
+    <task id="LOCAL-00008" summary="Seminar04 classwork">
+      <created>1682363756826</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1682078054658</updated>
+      <updated>1682363756826</updated>
     </task>
-    <task id="LOCAL-00009" summary="seminar03 added 2_2">
-      <created>1682078257776</created>
+    <task id="LOCAL-00009" summary="Seminar04 homework">
+      <created>1682598408492</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1682078257776</updated>
+      <updated>1682598408492</updated>
     </task>
-    <task id="LOCAL-00010" summary="seminar03 added 2_2+readme">
-      <created>1682177370162</created>
+    <task id="LOCAL-00010" summary="Seminar04 homework">
+      <created>1682617350090</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1682177370162</updated>
+      <updated>1682617350090</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Seminar05 romanToArabic">
+      <created>1682622246611</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682622246611</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Seminar05 romanToArabic">
+      <created>1683027662957</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683027662957</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Seminar05 romanToArabic">
+      <created>1683027965452</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683027965452</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Seminar05 HomeWork05 task 01 &amp; 02">
+      <created>1683067215527</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683067215527</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Lession06">
+      <created>1684259529323</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684259529323</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Seminar 06 initial commit">
+      <created>1684429316737</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684429316737</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Seminar 06 and particial attestation">
+      <created>1684449885450</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684449885450</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Seminar 06. final">
+      <created>1684484795565</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684484795566</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Seminar 06. added multiple user choices">
+      <created>1684486750274</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684486750274</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Seminar 06. some optimize code">
+      <created>1684487541045</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684487541045</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +316,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Seminar03" />
+                        <option value="seminar06" />
                       </list>
                     </value>
                   </entry>
@@ -265,9 +336,18 @@
     <MESSAGE value="task001 with sql" />
     <MESSAGE value="task002 with .gitignore processing" />
     <MESSAGE value="seminar03 initial without HW" />
-    <MESSAGE value="seminar03 added 2_2" />
-    <MESSAGE value="seminar03 added 2_2+readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar03 added 2_2+readme" />
+    <MESSAGE value="seminar03 added 2 with 2-D arrayList" />
+    <MESSAGE value="Seminar04 classwork" />
+    <MESSAGE value="Seminar04 homework" />
+    <MESSAGE value="Seminar05 romanToArabic" />
+    <MESSAGE value="Seminar05 HomeWork05 task 01 &amp; 02" />
+    <MESSAGE value="Lession06" />
+    <MESSAGE value="Seminar 06 initial commit" />
+    <MESSAGE value="Seminar 06 and particial attestation" />
+    <MESSAGE value="Seminar 06. final" />
+    <MESSAGE value="Seminar 06. added multiple user choices" />
+    <MESSAGE value="Seminar 06. some optimize code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seminar 06. some optimize code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -281,9 +361,19 @@
           <option name="timeStamp" value="9" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar01/HomeWorkS01.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar03/Examples.java</url>
           <line>33</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gbjava/seminar06/ClassWork.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

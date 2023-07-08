@@ -55,7 +55,7 @@ public class HomeWorkS01 {
         int arrayLength = 12;
         int arrLeftRange = 0;
         int arrRightRange = 100;
-        int[] array;
+        Integer[] array;
         //get new array
         array = Library.GetArray(arrayLength, arrLeftRange, arrRightRange);
         int minValue = array[0];
@@ -129,13 +129,13 @@ public class HomeWorkS01 {
         }
         int leftRange = 10;
         int rightRange = 20;
-        int[] array = Library.GetArray(arraySize, leftRange, rightRange);//new int[] { 3, 5, 6, 1}
+        Integer[] array = Library.GetArray(arraySize, leftRange, rightRange);//new int[] { 3, 5, 6, 1}
         System.out.println("Original array: " + Arrays.toString(array));
         ShiftArrayByNumElements(array, shiftN);// magic!
         System.out.println("Array after sort " + Arrays.toString(array));
     }
 
-    private static void ShiftArrayByNumElements(int[] array, int shiftN) {
+    private static void ShiftArrayByNumElements(Integer[] array, int shiftN) {
         /*         v
         *     [ 3, 5, 6, 1]
          *            ^  l

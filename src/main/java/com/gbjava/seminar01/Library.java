@@ -12,8 +12,8 @@ public class Library {
         Arrays.fill(array,arrayValue);
         return array;
     }
-    public static int[] GetArray(int arrayLength, int leftRange, int rightRange){
-        int[] array = new int[arrayLength];
+    public static Integer[] GetArray(int arrayLength, int leftRange, int rightRange){
+        Integer[] array = new Integer[arrayLength];
         Random rnd = new Random();
         for (int i = 0; i < arrayLength; i++) {
             array[i]= rnd.nextInt(leftRange,rightRange);
