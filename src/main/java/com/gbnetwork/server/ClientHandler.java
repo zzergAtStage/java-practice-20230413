@@ -1,4 +1,4 @@
-package com.gbnetwork.client;
+package com.gbnetwork.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,8 +19,6 @@ public class ClientHandler implements Runnable {
             BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             PrintWriter writer = new PrintWriter(clientSocket.getOutputStream(), true);
 
-            // Perform MVP pattern logic here
-            // You can define your Model, View, and Presenter classes and interact with them
 
             String clientMessage;
             while ((clientMessage = reader.readLine()) != null) {
